@@ -126,3 +126,4 @@ const ComplaintList = ({ refreshTrigger }) => {
 };
 
 export default ComplaintList;
+//compalaint list component with status update and delete functionality for admin
