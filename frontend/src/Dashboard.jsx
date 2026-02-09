@@ -21,9 +21,8 @@ import FileComplaint from './FileComplaint';
 import ComplaintList from './ComplaintList';
 import Notices from './Notices';
 import ManageResidents from './ManageResidents';
-import Profile from './Profile';          // <--- New
-import FinancialChart from './FinancialChart'; // <--- New
-
+import Profile from './Profile';          
+import FinancialChart from './FinancialChart'; 
 const Dashboard = () => {
   const navigate = useNavigate();
   const [user, setUser] = useState(null);
