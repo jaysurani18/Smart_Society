@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Camera, Send, AlertCircle } from 'lucide-react';
 import API from './api';
 
-const FileComplaint = ({ onComplaintFiled }) => {
+  const FileComplaint = ({ onComplaintFiled }) => {
   const [formData, setFormData] = useState({ title: '', description: '' });
   const [image, setImage] = useState(null);
   const [loading, setLoading] = useState(false);
