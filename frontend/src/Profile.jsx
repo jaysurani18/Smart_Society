@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { User, Mail, MapPin, Save, Shield } from 'lucide-react';
 import API from './api';
-
+// Profile component allows users to view and edit their profile information
 const Profile = ({ user, setUser }) => {
   const [formData, setFormData] = useState({
     name: user.name || '',
