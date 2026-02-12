@@ -9,6 +9,9 @@ import {
   User,
   UserPlus,
   Bell // <--- Fixed: Added Bell import
+
+
+  
 } from 'lucide-react';
 
 const Sidebar = ({ user, activeTab, setActiveTab, onLogout }) => {
