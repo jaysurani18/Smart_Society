@@ -129,18 +129,4 @@ const Sidebar = ({ user, activeTab, setActiveTab, onLogout }) => {
   );
 };
 
-// Helper Component for Menu Items
-const NavItem = ({ icon, label, id, activeTab, onClick }) => (
-  <button
-    onClick={() => onClick(id)}
-    className={`w-full flex items-center gap-3 px-3 py-3 rounded-xl transition-all duration-200 ${activeTab === id
-        ? 'bg-blue-600 text-white shadow-lg shadow-blue-900/50'
-        : 'text-slate-400 hover:bg-slate-800 hover:text-white'
-      }`}
-  >
-    {icon}
-    <span className="text-sm font-medium">{label}</span>
-  </button>
-);
-
 export default Sidebar;
